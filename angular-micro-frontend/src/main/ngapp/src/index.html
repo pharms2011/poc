@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ngapp</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-core-js->
+  <script src="./assets/core.js"></script>
+  <!--zone.js-->
+  <script src="./assets/zone.js"></script>
+  <!--polyfills-->
+  <script src="./assets/native-shim.js"></script>
+  <script src="./assets/custom-elements.min.js"></script>
+  <script src="./assets/rxjs.umd.js"></script>
+  <script src="./assets/core.umd.js"></script>
+  <script src="./assets/common.umd.js"></script>
+  <script src="./assets/platform-browser-dynamic.umd.js"></script>
+  <script src="./assets/elements.umd.js"></script>
+
+  <!--Helps allow multiple child components-->
+  <script>
+    ng.core.enableProdMode();
+  </script>
+
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>
